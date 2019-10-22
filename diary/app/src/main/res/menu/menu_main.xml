@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.user.diary.MainActivity">
+    <item
+        android:id="@+id/add_sample_data"
+        android:orderInCategory="100"
+        android:title="ADD SAMPLE DATA"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/delete_sample_data"
+        android:orderInCategory="101"
+        android:title="DELETE ALL DATA"
+        app:showAsAction="never" />
+</menu>
